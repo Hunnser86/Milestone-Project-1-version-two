@@ -27,8 +27,6 @@ body{
 .nav-ul{
     text-align: center;
     padding-top: 20px;
-    
-
 }
 
 .nav-li{
@@ -189,3 +187,66 @@ body{
     
 }
 
+
+/*----------------------------media queries*/
+
+@media only screen and (min-width: 425px) {
+    .hero .cta{
+        margin-left: 160px;
+    }
+    .past-btn{
+        margin-left: 120px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    
+    .logo img{
+        margin-left: 20px;
+    }
+    
+    .hero .cta{
+        margin-left: 330px;
+    }
+    .past-btn{
+        margin-left: 300px;
+    }
+    .nav-ul{
+        line-height: 2;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .hero .cta{
+        margin-left: 455px;
+    }
+    .past-btn{
+        margin-left: 410px;
+    }
+    .hero-intro{
+    height: 40vh;    
+    }
+    .hero-intro h1{
+        font-size: 50px;
+        padding-bottom: 30px;
+    }
+    .hero-intro p{
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 30px;
+    }
+    .past-title {
+        padding-top: 30px;  
+        font-size: 40px;      
+    }
+    .past-p{
+        font-size: 25px;
+    }
+    .nav-ul{
+        line-height:3;
+    }
+
+}
