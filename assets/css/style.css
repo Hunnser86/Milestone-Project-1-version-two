@@ -3,32 +3,188 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    
+}
+
+body{
+    background: rgb(186, 207, 203);
+   min-width: 100%;
 }
 
 /*------------------------------Header*/
 
 .nav{
+    
     background: rgb(186, 207, 203);
 }
 
 .logo img{
-    width: 80%;
+    width: 60%;
     padding-top: 10px;
     padding-left: 10px;
-    margin-left: 30px;
+    margin-left: 75px;
 }
 
 .nav-ul{
+    text-align: center;
     padding-top: 20px;
+    
+
 }
 
 .nav-li{
     padding-top: 20px;
-    text-align: center;
     list-style: none;
+    font-size: 20px;
+    display: inline;
+    padding: 10px;
 }
 
 .nav-li a{
-   color: rgb(66, 66, 66); 
+   color: #1a9eab;
    text-decoration: none;
+}
+
+.nav-li a:hover{
+    color: #f58220;
+}
+
+/*-----------------------------hero*/
+
+.hero-intro{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: url(../img/hero\ image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: aliceblue;
+    backdrop-filter: brightness(50%);
+}
+
+.hero-intro h1 {
+    text-align: center;
+}
+
+.hero-intro p{
+    text-align: center;
+}
+
+.hero .cta{
+    border: none;
+    border-radius: 50px;
+    margin-left: 150px;
+    padding: 10px;
+    background: #f58220;
+}
+
+.hero .cta a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/*----------------------------carousel*/
+
+.past-works{
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: underline 2px solid ;
+    background: rgb(186, 207, 203);
+    padding-bottom: 10px;
+}
+
+.carousel-caption{
+    color:white;
+    font-size: 50px; 
+    background: rgba(0,0,0,0.5);  
+}
+
+.carousel-caption h5{
+    font-size: 60px;
+}
+
+.carousel{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgb(186, 207, 203);
+    border: none;
+}
+
+
+.past-btn{
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    background: #f58220;
+    margin-top: 20px;
+    margin-left: 120px;
+
+}
+
+.past-btn a{
+     text-decoration: none;
+     color: aliceblue;
+}
+
+.btn-row{
+    background: rgb(186, 207, 203);
+    
+}
+
+/*----------------------------qualifications*/
+
+.qualifications{
+     background: rgb(186, 207, 203);
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+
+.qualifications img{
+    height: 100px;
+    width: 160px;
+    margin-left: 130px;
+    padding-bottom: 20px;
+}
+
+.qualifications p{
+    text-align: center;
+
+}
+
+/*----------------------------find-us*/
+
+.find-us #map{ 
+     width: 100%;
+     background: rgb(186, 207, 203);
+     padding-top: 20px;
+     padding-bottom: 20px;
+     text-align: center;
+}
+
+.find-us iframe{
+    width: 80%;
+}
+
+/*----------------------------footer*/
+
+.footer .contact{
+    width: 100%;
+    background: rgb(186, 207, 203);
+    text-align: center;
+}
+
+.social{
+    width: 100%;
+    background: rgb(186, 207, 203);
+    text-align: center;
+}
+
+.social i{
+    font-size: 30px;
+    padding: 10px;
+    
+}
+
+.social a{
+    color: #1a9eab;
 }
