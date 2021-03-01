@@ -135,7 +135,7 @@ body{
 .qualifications img{
     height: 100px;
     width: 160px;
-    margin-left: 130px;
+    margin-left: 300px;
     padding-bottom: 20px;
 }
 
@@ -201,7 +201,11 @@ body{
 
 
 @media only screen and (min-width: 768px) {
-    
+     
+    .nav-ul{
+        line-height: 2;
+        padding-left: 0;
+    }
     .logo img{
         margin-left: 20px;
     }
@@ -209,22 +213,47 @@ body{
     .hero .cta{
         margin-left: 330px;
     }
-    .past-btn{
-        margin-left: 300px;
+    .carousel-inner{
+        height: 30vh;
+        width: 60%;
+        margin-left: 150px;
     }
-    .nav-ul{
-        line-height: 2;
-        padding-left: 0;
+    .carousel-inner img{
+        height: 30vh;
+        width: 50%;
+        
+    }
+    .carousel-caption{
+        height: 150px;
+        
+    }
+    .carousel-caption h5{
+        font-size: medium;
+    }  
+    .carousel-caption p{
+        font-size: small;
+    }
+    .past-btn{
+        width: 250px;
+        margin-left: 250px;
+    }
+  
+    .qualifications img{
+        margin-left: 400px;
     }
 }
 
 @media only screen and (min-width: 1024px){
+    .nav-ul{
+        line-height:3;
+    }
     .hero .cta{
         margin-left: 455px;
+        height: 50px;
+        width: 150px;
+        margin-left: 435px;
     }
-    .past-btn{
-        margin-left: 410px;
-    }
+    
     .hero-intro{
     height: 40vh;    
     }
@@ -238,6 +267,21 @@ body{
         padding-right: 10px;
         padding-bottom: 30px;
     }
+     .carousel-inner{
+        margin-left: 200px;
+    }
+    .carousel-inner img{
+        height: 30vh;
+        width: 50%;
+        
+    }
+   
+    .carousel-caption h5{
+        font-size: large;
+    }  
+    .carousel-caption p{
+        font-size: medium;
+    }
     .past-title {
         padding-top: 30px;  
         font-size: 40px;      
@@ -245,8 +289,25 @@ body{
     .past-p{
         font-size: 25px;
     }
-    .nav-ul{
-        line-height:3;
+    .past-btn{
+        margin-left: 380px;
+        
+    }
+    }
+    .qualifications img{
+        margin-left: 430px;
+    }
+
+    @media only screen and (min-width: 1440px){
+        .nav-ul{
+            padding-top: 40px;
+            
+        }
+        .nav-li a{
+            font-size: 30px;
+        }
+
+
     }
 
 }
